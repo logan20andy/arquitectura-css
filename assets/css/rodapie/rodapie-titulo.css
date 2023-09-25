@@ -7,3 +7,7 @@
     padding: 1.5625rem;
     
 }
+.rodapie__titulo:hover{
+    color: black;
+    text-decoration: underline;
+}

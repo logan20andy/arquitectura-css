@@ -1,6 +1,23 @@
 .rodapie__descripcion{
     display:flex;
     font-size: 2rem;
+    font-family: pacifico,cursive;
     margin-left: 5rem;
-    color: #8C8888;
+    color: #070707;
+}
+@media screen and (min-width: 0){
+    .rodapie__descripcion{ 
+        font-size: 1.5rem;
+        margin-right: 5rem;
+        padding-bottom: -5rem;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .rodapie__descripcion{ 
+        font-size: 2.5rem;
+        align-items: center;
+    }
+
 }
